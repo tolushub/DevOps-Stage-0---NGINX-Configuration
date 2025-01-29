@@ -1,6 +1,6 @@
-# h1 Title: My Journey into DevOps: Setting Up NGINX on Ubuntu 8-)
+# h1 Title: My Journey into DevOps: Setting Up NGINX on Ubuntu
 
-##**Introduction**
+**Introduction**
 As part of my DevOps learning journey, I was tasked with setting up and configuring NGINX on a fresh Ubuntu server. This task was designed to help me gain hands-on experience with web server configuration and deployment. Here’s how I approached it, the challenges I faced, and what I learned along the way.
 
 **Approach to Completing the Task**
