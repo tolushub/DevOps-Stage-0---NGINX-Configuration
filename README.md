@@ -19,9 +19,6 @@ Learning and Professional Growth
 This task taught me the basics of web server configuration and how to troubleshoot common issues. It also reinforced my understanding of Linux commands and server management. As someone aspiring to become a DevOps engineer, this hands-on experience was invaluable. 
 
 ## Links
-
-[link text](https://hng.tech/hire/devops-engineers)
-[link with title](https://hng.tech/hire/cloud-engineers "Cloud Engineers")
 References
 • DevOps Engineers -  https://hng.tech/hire/devops-engineers
 • Cloud Engineers -  https://hng.tech/hire/cloud-engineers
