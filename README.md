@@ -4,9 +4,15 @@
 As part of my DevOps learning journey, I was tasked with setting up and configuring NGINX on a fresh Ubuntu server. This task was designed to help me gain hands-on experience with web server configuration and deployment. Here’s how I approached it, the challenges I faced, and what I learned along the way.
 
 **Approach to Completing the Task**
-Provisioning the Server: I started by setting up an Ubuntu 24.04 LTS server on AWS.
+Provisioning the Server: I started by setting up an Ubuntu 24.04 LTS server on AWS, t2.micro instance was used. My security group allowed all traffic including SSH access (port 22) and HTTP traffic (port 80) from anywhere. Once done, I connected to the instance using ssh client(Mobaxterm).
 
-**Installing NGINX:** Using the terminal, I updated the package list and installed NGINX with the command sudo apt install nginx -y.
+**Installing NGINX:** 
+Using the terminal, I updated the package list and installed NGINX with the command 
+```
+sudo apt upgrade && sudo apt update -y
+sudo apt install nginx -y
+```
+
 
 **Creating a Custom HTML Page:** I created a simple HTML file at /var/www/html/index.html with the message: “Welcome to DevOps Stage 0 - Tolulope OJo/Ops-ack”.
 
