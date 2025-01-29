@@ -12,10 +12,10 @@ Provisioning the Server: I started by setting up an Ubuntu 24.04 LTS server on A
 
 **Testing the Configuration:** After ensuring NGINX was running, I accessed the server’s public IP in my browser and saw the custom page.
 
-##**Challenges Faced**
+## **Challenges Faced**
 **Firewall Issues:** Initially, I couldn’t access the server because the firewall was blocking HTTP traffic. I resolved this by allowing all traffic for the inbound rule on AWS.
 
-##**Learning and Professional Growth**
+## **Learning and Professional Growth**
 This task taught me the basics of web server configuration and how to troubleshoot common issues. It also reinforced my understanding of Linux commands and server management. As someone aspiring to become a DevOps engineer, this hands-on experience was invaluable. 
 
 ## Links
