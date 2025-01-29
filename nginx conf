@@ -1,0 +1,51 @@
+## **Part 1: NGINX Installation and Configuration**
+Step 1: Set Up an Ubuntu Server
+Provision a Server: Use a cloud provider like AWS, Google Cloud, Azure, or a local VM to set up a fresh Ubuntu server (e.g., Ubuntu 22.04 LTS).
+
+SSH into the Server: Use the following command to connect to your server:
+
+bash
+Copy
+ssh username@your-server-ip
+Step 2: Install NGINX
+Update the package list:
+
+bash
+Copy
+sudo apt update
+Install NGINX:
+
+bash
+Copy
+sudo apt install nginx -y
+Verify NGINX is running:
+
+bash
+Copy
+sudo systemctl status nginx
+If it’s not running, start it with:
+
+bash
+Copy
+sudo systemctl start nginx
+Step 3: Configure NGINX to Serve a Custom HTML Page
+Create a custom HTML file:
+
+bash
+Copy
+sudo nano /var/www/html/index.html
+Add the following content (replace [Your Name] and [SlackName] with your actual name and Slack username):
+
+html
+Copy
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DevOps Stage 0</title>
+</head>
+<body>
+    <h1>Welcome to DevOps Stage 0 - [Your Name]/[SlackName]</h1>
+</body>
+</html>
+Run HTML
+Save and exit the file (Ctrl + X, then Y, then Enter).
