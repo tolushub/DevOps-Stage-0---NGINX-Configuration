@@ -1,51 +1,48 @@
-## **Part 1: NGINX Installation and Configuration**
-Step 1: Set Up an Ubuntu Server
-Provision a Server: Use a cloud provider like AWS, Google Cloud, Azure, or a local VM to set up a fresh Ubuntu server (e.g., Ubuntu 22.04 LTS).
+##Part 1: NGINX Installation and Configuration
+##Step 1: Set Up an Ubuntu Server
+##Provision a Server: Use a cloud provider like AWS, Google Cloud, Azure, or a local VM to set up a fresh Ubuntu server (e.g., Ubuntu 22.04 LTS).
 
-SSH into the Server: Use the following command to connect to your server:
+##SSH into the Server: Use the following command to connect to your server:
+ssh -i dev.pem ubuntu@54.89.218.226
 
-bash
-Copy
-ssh username@your-server-ip
-Step 2: Install NGINX
-Update the package list:
-
-bash
-Copy
+##Step 2: Install NGINX
+##Update the package list:
 sudo apt update
-Install NGINX:
 
-bash
-Copy
+##Install NGINX:
 sudo apt install nginx -y
-Verify NGINX is running:
 
-bash
-Copy
+##Verify NGINX is running:
 sudo systemctl status nginx
-If it’s not running, start it with:
 
-bash
-Copy
-sudo systemctl start nginx
-Step 3: Configure NGINX to Serve a Custom HTML Page
-Create a custom HTML file:
-
-bash
-Copy
+##Step 3: Configure NGINX to Serve a Custom HTML Page
+##Create a custom HTML file:
 sudo nano /var/www/html/index.html
-Add the following content (replace [Your Name] and [SlackName] with your actual name and Slack username):
+##Add the following content (replace [Your Name] and [SlackName] with your actual name and Slack username):
 
-html
-Copy
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DevOps Stage 0</title>
+<title>Welcome to DevOps Stage 0</title>
+<style>
+html { color-scheme: light dark; }
+body { width: 35em; margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
 </head>
 <body>
-    <h1>Welcome to DevOps Stage 0 - [Your Name]/[SlackName]</h1>
+<h1>Welcome to DevOps Stage 0-Tolulope Ojo/Ops-ack</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
 </body>
 </html>
-Run HTML
-Save and exit the file (Ctrl + X, then Y, then Enter).
+
+##Run HTML
+##Save and exit the file (Ctrl + X, then Y, then Enter).
