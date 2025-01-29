@@ -17,7 +17,7 @@ Verified that installation was completed successfully, also it is up and running
 sudo systemctl status nginx
 ```
 **Creating a Custom HTML Page:** 
-I created a simple HTML file at /var/www/html/index.html with the message: “Welcome to DevOps Stage 0 - Tolulope OJo/Ops-ack”.
+I created a simple HTML file at /var/www/html/index.html with the message: “Welcome to DevOps Stage 0 - Tolulope Ojo/Ops-ack”.
 ```
 <!DOCTYPE html>
 <html>
